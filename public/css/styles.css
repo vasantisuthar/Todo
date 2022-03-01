@@ -1,0 +1,108 @@
+nav{
+    background-color: #ffc93c  !important;
+}
+nav a{
+    font-size: 2rem;
+}
+nav button{
+    padding:2px 22px !important;
+    margin-top: 2% !important;
+}
+.listHeader{
+    margin-left: 17%;
+}
+.list-group{
+    margin-top : 6%;
+    position: relative;
+}
+.sidenav{
+    padding:2%;
+}
+
+.sidenav h3{
+    color:gray;
+    margin:3% 2% 3% 2%;
+}
+.list-item-group{
+    display: flex;
+    font-size: 1.5rem;
+    color:black;
+    background-color: #F1F1F1;
+    padding: 3% 3%;
+    border-radius: 5px;
+    margin-top:3%;
+    width:220px;
+    position: relative;
+}
+.delete{
+    position: absolute;
+    right:0;
+    pointer-events: all !important;
+}
+.item {
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.item input{
+    width : 85%;
+    border: none;
+    border-bottom: 1px solid #F1F1F1;
+    outline: none;
+}
+  
+.item:last-child {
+    border-bottom: 0;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list input{
+    display: flex;
+    width: 300px !important;
+}
+.todo {
+  display: flex; 
+  background-color: #deeeea;
+  width:360px;
+  padding-left: 10%;
+  margin-top:3%;
+  border-radius: 5px;
+}
+.todo input[type="checkbox"]{
+    margin : 11% 3% 2% 0%;
+    font-size: 1.5rem;
+    position: relative;
+    opacity: 1 !important;
+    pointer-events: all !important;
+}
+input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+  }
+.listLink{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    text-align: center;
+    margin: 4% 0% 3% 0;
+}
+.listItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.listItems h3{
+    color:#31326f;
+}
+.listItems p{
+    font-size: 1.5rem;
+}
+.delBtn{
+    position: absolute;
+    top:3%;
+    right:0;
+}
